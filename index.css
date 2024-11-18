@@ -106,6 +106,10 @@ div {
   flex-direction: row;
 }
 
+.dropdown:focus-within .dropdown-content {
+  display: block;
+}
+
 footer {
   display: block;
   text-align: center;
