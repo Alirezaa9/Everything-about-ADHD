@@ -140,6 +140,12 @@ footer {
     width: 100%;
     text-align: left;
   }
+  .adjust {
+    font-size: 1em; 
+    text-align: center; 
+    margin: 2% auto; 
+  }
+
 
   .dropdown-content {
     position: static; 
