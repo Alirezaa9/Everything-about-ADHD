@@ -109,6 +109,11 @@ div {
 .dropdown:focus-within .dropdown-content {
   display: block;
 }
+.dropdown .dropbtn {
+  cursor: pointer;
+  outline: none;
+}
+
 
 footer {
   display: block;
