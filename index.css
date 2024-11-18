@@ -7,6 +7,15 @@ button {
   background-color: black;
 }
 
+.adjust {
+  margin: 1%; 
+  padding: 1%; 
+  text-align: left; 
+  flex: 1; 
+  font-size: 1.2em; 
+  line-height: 1.5; 
+}
+
 
 img {
   width: 30%;
