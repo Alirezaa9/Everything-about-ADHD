@@ -123,3 +123,20 @@ footer {
   text-size-adjust: inherit;
   
 }
+
+/* For screens smaller than 768px (common breakpoint for mobile) */
+@media screen and (max-width: 768px) {
+  .navbar a, .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown-content {
+    position: static; 
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none; /* Prevent hover behavior on mobile */
+  }
+}
